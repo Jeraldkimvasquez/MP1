@@ -10,7 +10,9 @@
 }
 
 .card:hover {
-         transform: scale(1.15);
+         transform: scale(1.12);
+         border: 2px solid blue;
+         border-radius: 50px;
 }
 
 .card{

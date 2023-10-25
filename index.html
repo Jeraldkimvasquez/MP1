@@ -38,44 +38,40 @@
         <div class="content">
             <div class="row">
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card text-center h-100">
                         <div class="card-body">
-                          <h4 class="card-title text-center">Class Adviser</h4>
+                          <h4 class="card-title ">Class Adviser</h4>
                           <img src="images/classadviser.jpeg" class="img-thumbnail" alt="Image of Class Adviser">
-                          <a href="#" class="card-link"><h3 class="text-center">Sign-in</h3></a>
-            
+                           <button class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#classadvisermodal">Sign-in</button>
                         </div>
                       </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card text-center h-100">
                         <div class="card-body">
-                          <h4 class="card-title text-center">Subject Teacher</h4>
+                          <h4 class="card-title ">Subject Teacher</h4>
                           <img src="images/subjectteacher.jpeg" class="img-thumbnail" alt="Image of Subject Teacher">
-                    
-                          <a href="#" class="card-link"><h3 class="text-center">Sign-in</h3></a>
+                          <button class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#subjectteachermodal">Sign-in</button>
                         
                         </div>
                       </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card text-center h-100">
                         <div class="card-body">
                           <h4 class="card-title text-center">Registrar</h4>
-                      <img src="images/registrar.jpg" class="img-thumbnail" alt="Image of Registrar">
-                         
-                      <a href="#" class="card-link"><h3 class="text-center">Sign-in</h3></a>
-                         
+                      <img src="images/registrar.jpg" class="img-thumbnail" alt="Image of Registrar">                     
+                      <button class="btn btn-primary "data-bs-toggle="modal" data-bs-target="#registrarmodal">Sign-in</button>                        
                         </div>
                       </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card text-center h-100">
                         <div class="card-body">
                           <h4 class="card-title text-center">School Principal</h4>
                          <a  class="text-center" href="#" > 
                           <img src="images/schoolhead.jpg" class="img-thumbnail" alt="Image of School Head">
-                          <a href="#" class="card-link"><h3 class="text-center">Sign-in</h3></a>
+                          <button class="btn btn-primary "data-bs-toggle="modal" data-bs-target="#schoolprincipalmodal">Sign-in</button>     
                         </a>
                           
                            </div>
@@ -130,7 +126,120 @@
          <img src="images/academiccalendar.jpg" class="img-thumbnail" alt="Image of Class Adviser"> 
           </div>
         </div>
+     
+     
 
+        <!-- Modal  Class Adviser -->
+        
+        <div class="modal fade" id="classadvisermodal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Sign in</h4>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body  ">
+                <form>
+                <div class="form-floating ">
+                  <input type="text" class="form-control " id="floatingInput" placeholder="#" required>
+                  <label for="floatingInput">Username</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="#" required>
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <div class="text-end">
+                <button class="mt-1 btn btn-primary btn-sm ">Submit</button>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+<!-- End modal classadviser -->
+
+<!-- Subject Teacher -->
+<div class="modal fade" id="subjectteachermodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Sign in</h4>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body  ">
+        <form>
+        <div class="form-floating ">
+          <input type="text" class="form-control " id="floatingInput" placeholder="#" required>
+          <label for="floatingInput">Username</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="#" required>
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="text-end">
+        <button class="mt-1 btn btn-primary btn-sm ">Submit</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<!-- End -->
+<!-- Registrar -->
+<div class="modal fade" id="registrarmodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Sign in</h4>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body  ">
+        <form>
+        <div class="form-floating ">
+          <input type="text" class="form-control " id="floatingInput" placeholder="#" required>
+          <label for="floatingInput">Username</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="#" required>
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="text-end">
+        <button class="mt-1 btn btn-primary btn-sm ">Submit</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<!-- End -->
+<!-- School Principal -->
+<div class="modal fade" id="schoolprincipalmodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Sign in</h4>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body  ">
+        <form>
+        <div class="form-floating ">
+          <input type="text" class="form-control " id="floatingInput" placeholder="#" required>
+          <label for="floatingInput">Username</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="#" required>
+          <label for="floatingPassword">Password</label>
+        </div>
+        <div class="text-end">
+        <button class="mt-1 btn btn-primary btn-sm ">Submit</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<!-- End -->
         <div class="footer">
             <p>Email: jeraldvasquez@gmail.com</p>
         </div>

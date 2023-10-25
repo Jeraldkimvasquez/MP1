@@ -1,5 +1,6 @@
 .header {
-    background-color: aqua;
+    background: rgb(214,242,205);
+    background: linear-gradient(90deg, rgba(214,242,205,0.4318102240896359) 0%, rgba(18,8,226,0.87718837535014) 0%, rgba(56,107,161,1) 60%, rgba(68,230,231,1) 100%, rgba(192,162,232,1) 100%, rgba(183,146,224,1) 100%, rgba(131,58,180,1) 100%, rgba(127,126,129,1) 100%, rgba(249,213,204,1) 100%);
     padding: 25px; text-align: center;
 }
 

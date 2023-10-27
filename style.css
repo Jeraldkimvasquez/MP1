@@ -19,3 +19,16 @@
 .card{
     transition: all 0.3s;
 }
+
+#classadviser {
+   text-align: center;
+}
+   
+
+
+td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+

@@ -12,7 +12,7 @@
     background: rgb(36,40,159);
     background: linear-gradient(90deg, rgba(36,40,159,0.4318102240896359) 0%, rgba(221,220,231,1) 0%, rgba(212,249,247,1) 100%, rgba(31,31,237,0.87718837535014) 100%, rgba(250,231,226,1) 100%, rgba(56,107,161,1) 100%, rgba(68,230,231,1) 100%, rgba(192,162,232,1) 100%, rgba(183,146,224,1) 100%, rgba(131,58,180,1) 100%);
 
-        border-radius: 20px;
+        border-radius: 5px;
 }
 
 .card:hover {
@@ -35,7 +35,7 @@
  .active{
     background: rgb(36,40,159);
     background: linear-gradient(90deg, rgba(36,40,159,0.4318102240896359) 0%, rgba(221,220,231,1) 0%, rgba(212,249,247,1) 100%, rgba(31,31,237,0.87718837535014) 100%, rgba(250,231,226,1) 100%, rgba(56,107,161,1) 100%, rgba(68,230,231,1) 100%, rgba(192,162,232,1) 100%, rgba(183,146,224,1) 100%, rgba(131,58,180,1) 100%);
-    border-radius: 20px;
+    border-radius: 5px;
  }
  .body-bg-color{
     background-color: #e4e3f3;

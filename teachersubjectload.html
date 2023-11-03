@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Teachers Subject Load</title>
+</head>
+<body class="body-bg-color">
+    <div class="header" id="classadviserheader">
+        <h4>School Principal</h4>
+      </div>
+    <nav class="navbar navbar-expand-sm bg-light" id="navclassadviser">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               
+               <ul class="navbar-nav">
+                   <li class="nav-item">
+                    <a class="nav-link" href="dashboardschoolprincipal.html">Dashboard</a>
+                  </li>
+              <li class="nav-item">
+               <a class="nav-link active" href="#">Teachers Subject Load</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="classadviserforschoolprincipal.html">Class Advisory</a>
+              </li>
+           </ul>
+           </div>
+           <button class="btn btn-danger mx-4" data-bs-toggle="modal" data-bs-target="#logout"><i class="bi bi-x-lg"></i> Logout</button>
+           </nav>
+           <div class="container mt-4">
+            <ul class="nav nav-pills">
+              <li class="btn btn-light mx-1 active">
+                <a class="text-decoration-none" href="#1a" data-toggle="tab" > <i class="bi bi-card-list"></i> Assigned Class Adviser</a>
+              </li>
+              <li class="btn btn-light mx-1">
+                <a class="text-decoration-none" href="#2a" data-toggle="tab"><i class="bi bi-clipboard-data"></i> Assigned Subject Teacher</a>
+              </li>
+              <li class="btn btn-light mx-1">
+                <a class="text-decoration-none" href="#3a" data-toggle="tab"><i class="bi bi-shield-lock"></i> Credential Manager</a>
+              </li>
+              <button type="button" class="btn btn-info mx-4 "> <i class="bi bi-printer"></i> Print</button>
+            </ul>
+
+
+            <div class="tab-content">
+              <div class="tab-pane  active" id="1a">
+                  
+                <div class="container  row"> 
+                    <div class="col-lg col-md col-sm">
+                        <input  class="form-control   w-50 search-margin-l   mt-5" type="search" placeholder="Class Adviser">  
+                        <input  class="form-control   w-50 search-margin-l   mt-1" type="search" placeholder="Section Name">  
+                
+              <select id="gradeoffering" class="form-select  w-50 search-margin-l mt-1"   name="gradeoffering"> 
+              <option>--Select Grade Level--</option>
+              <option>Grade 7</option>
+              <option>Grade 8</option>
+              <option>Grade 9</option>
+              <option>Grade 10</option>
+              <option>Grade 11</option> 
+              <option>Grade 12</option>
+            </select>
+             <button class="w-25 search-margin-l btn btn-info mt-2"><i class="bi bi-floppy2"></i> Save</button>  
+                    </div>
+                    <div class="col">
+
+                        <table class="table table-bordered  mt-4 mx-auto w-auto">
+                            <th class="bg-secondary text-light">Name of Class Adviser</th>
+                            <th class="bg-secondary text-light">Section Name</th>
+                            <th class="bg-secondary text-light">Grade Level</th>
+                        </tr>
+                        <tr class="border-2 border-dark text">
+                            <td>Juan Dela Cruz</td>
+                            <td>St. John Paul II</td>
+                            <td>7</td>                 
+                        </tr>
+                        <tr class="border-2 border-dark">
+                            <td>Ma.Lourdes Sereno</td>
+                            <td>St. Alphonsa</td>
+                            <td>8</td>
+                            
+                        </tr>
+                        <tr class="border-2 border-dark">
+                            <td  >Leila De lima</td>
+                            <td  >St. Andrew Kim</td>
+                            <td  >9</td>
+                            
+                        </tr>
+                        <tr class="border-2 border-dark">
+                            <td  >Sarah Duterte</td>
+                            <td  >St. Lorenzo Ruiz</td>
+                            <td  >10</td>
+                           
+                              
+                        </tr>
+                        <tr class="border-2 border-dark">
+                            <td  >Bongbong Marcos</td>
+                            <td  >St. Pio</td>
+                            <td  >11</td>
+                        </tr>
+  
+                        <tr class="border-2 border-dark">
+                          <td  >Risa Hontivreos</td>
+                          <td  >St. Joseph</td>
+                          <td  >12</td>
+                      </tr>
+                    </table>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="tab-pane border border-primary " id="2a">
+                <div class="container row">
+                    <div class="col-lg col-md col-sm">
+                        <input  class="form-control   w-50 search-margin-l mt-5" type="search" placeholder="Name of Subject Teacher"> 
+                <select id="subject" class="form-select  w-50 search-margin-l mt-2 mb-2"   name="subject"> 
+                    <option>--Select Subject--</option>
+                    <option>Filipino</option>
+                    <option>Mathematics</option>
+                    <option>Science</option>
+                    <option>Araling Panlipunan</option>
+                    <option>Edukasyon sa Pagpapakatao(ESP)</option> 
+                    <option>MAPEH</option>
+                  </select>
+                  <select id="gradeoffering" class="form-select  w-50 search-margin-l mb-1"   name="gradeoffering"> 
+                    <option>Select Grade Level and Section</option>
+                    <option>Grade 7-St. John Paull II</option>
+                    <option>Grade 8-St. Alphonsa</option>
+                    <option>Grade 9-St. Andrew Kim</option>
+                    <option>Grade 10-St. Lorenzo Ruiz</option>
+                    <option>Grade 11-St. Pio</option> 
+                    <option>Grade 12-St. Joseph</option>
+                  </select>
+                  <button class="w-25 search-margin-l btn btn-info"><i class="bi bi-floppy2"></i> Save</button>   
+                    </div>
+                    <div class="col-lg col-md col-sm">
+                       
+                <table class="mt-4 mx-auto w-auto">
+                    <tr class="border-2 border-dark">
+                        <th class="bg-secondary text-light">Name of Subject Teacher</th>
+                        <th class="bg-secondary text-light">Subject</th>   
+                        <th class="bg-secondary text-light">Grade and Section</th>   
+                    </tr>
+                    <tr class="border-2 border-dark text">
+                        <td>Antonio Luna</td>
+                        <td>Filipino</td>
+                        <td>Grade 7-St. John Paul II</td>
+                                          
+                    </tr>
+                    <tr class="border-2 border-dark">
+                        <td>Jose Rizal</td>
+                        <td>Mathematics</td>
+                        <td>Grade 8- St. Alphonsa</td>
+                       
+                    </tr>
+                    <tr class="border-2 border-dark">
+                        <td  >Andres Bonifacio</td>
+                        <td  >Science</td>
+                        <td  >Grade 9-St. Andrew Kim</td>                    
+                    </tr>
+                    </table>
+                    </div>
+                </div>
+          </div> 
+
+          <div class="tab-pane border border-primary " id="3a">
+               <div class="container row ">
+                <div class="col-lg col-md col-sm">
+                  <input  class="form-control   w-50 search-margin-l mt-5" type="search" placeholder="Username"> 
+          <select id="subject" class="form-select  w-50 search-margin-l mt-2 mb-2"   name="subject"> 
+              <option>--Type of Position--</option>
+              <option>Class Adviser</option>
+              <option>Subject Teacher</option>
+              <option>School Registrar</option>
+              <option>School Principal</option>
+            </select>
+            <select id="gradeoffering" class="form-select  w-50 search-margin-l mb-1"   name="gradeoffering"> 
+              <option>Select Grade Level and Section</option>
+              <option>Grade 7-St. John Paull II</option>
+              <option>Grade 8-St. Alphonsa</option>
+              <option>Grade 9-St. Andrew Kim</option>
+              <option>Grade 10-St. Lorenzo Ruiz</option>
+              <option>Grade 11-St. Pio</option> 
+              <option>Grade 12-St. Joseph</option>
+            </select>
+            <input class="form-control  w-50 search-margin-l mb-1" type="password" placeholder="Password">
+            <button class="w-25 search-margin-l btn btn-info"><i class="bi bi-floppy2"></i> Save</button>   
+              </div>
+              <div class="col">
+                <table class="table table-bordered    mt-4 mx-auto w-auto">
+                  <tr class="border-2 border-dark">
+                      <th class="bg-secondary text-light">Username</th>
+                      <th class="bg-secondary text-light">Type of Positions</th>   
+                      <th class="bg-secondary text-light">Grade and Section</th>   
+                      <th class="bg-secondary text-light">Password</th>   
+                    
+                  </tr>
+                  <tr class="border-2 border-dark text">
+                      <td>Antonio Luna</td>
+                      <td>Subject Teacher</td>
+                      <td>Grade 7-St. John Paul II</td>
+                      <td>teacherantonio</td>     
+                             
+                  </tr>
+                  <tr class="border-2 border-dark">
+                      <td>Jose Rizal</td>
+                      <td>Class Adviser</td>
+                      <td>Grade 8- St. Alphonsa</td>
+                      <td>joserizal</td>
+                     
+                  </tr>
+                  <tr class="border-2 border-dark">
+                      <td  >Andres Bonifacio</td>
+                      <td  >Science</td>
+                      <td  >Registrar</td>
+                      <td  >Bonifacio</td>
+                    
+                  </tr>
+                  <tr class="border-2 border-dark">
+                      <td  >Melchora Aquino</td>
+                      <td  >School Principal</td>
+                      <td  ></td>   
+                      <td  >aquinom</td>   
+                  </tr>
+                  
+                  </table>
+              </div>
+               </div>
+          </div>
+          <div class="modal fade" id="logout">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Log out</h4>
+                  <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="col-sm col-lg col-md text-center">
+                    <h7>Are you sure to logout?</h7>
+                    <form action="index.html"> 
+                      <button class="mt-2 btn btn-primary btn-sm">Yes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+</body>
+</html>

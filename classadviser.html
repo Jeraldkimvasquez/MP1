@@ -9,116 +9,116 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <title>Dashboard</title>
 </head>
+
 <body class="body-bg-color">
+              <!-- Header -->
   <div class="header" id="classadviserheader">
     <h4>Class Adviser</h4>
 </div>
+              <!-- End Header -->
+
+              <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-sm bg-light" id="navclassadviser">
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         
-         <ul class="navbar-nav">
-             <li class="nav-item">
-              <a class="nav-link    active" href="#">Dashboard</a>
-            </li>
-        <li class="nav-item">
-         <a class="nav-link" href="gradelevel.html">Grade Level</a>
-       </li>
-       <li class="nav-item">
-         <a class="nav-link" href="schoolforms.html">School Forms</a>
-       </li>
-     </ul>
-     </div>
-     <button class="btn btn-danger mx-4" data-bs-toggle="modal" data-bs-target="#logout"><i class="bi bi-x-lg"></i> Logout</button>
-     </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav">
+         <li class="nav-item"><a class="nav-link    active" href="#">Dashboard</a></li>
+         <li class="nav-item"><a class="nav-link" href="gradelevel.html">Grade Level</a></li>
+         <li class="nav-item"><a class="nav-link" href="schoolforms.html">School Forms</a></li>
+      </ul>
+   </div>
+        <button class="btn btn-danger mx-4" data-bs-toggle="modal" data-bs-target="#logout"><i class="bi bi-x-lg"></i> Logout</button>
+</nav>
+              <!-- End Navigation Bar -->
+     
+              <!-- Content row Col-1 -->
+<div class="container mt-5">
+  <div class="row">
+     <div class="col-md col-lg col-sm">
+        <label for="select">School Year</label>
+           <select id="sy" class="form-select"   name="schoolyear"> 
+               <option>2023-2024</option>
+               <option>2022-2023</option>
+               <option>2021-2022</option>
+               <option>2020-2021</option>
+               <option>2019-2020</option>
+            </select>
 
-     <br>
-     <div class="container">
-          <div class="row">
-            <div class="col-md col-lg col-sm">
-              <label for="select">School Year</label>
-      <select id="sy" class="form-select"   name="schoolyear"> 
-        <option>2023-2024</option>
-        <option>2022-2023</option>
-        <option>2021-2022</option>
-        <option>2020-2021</option>
-        <option>2019-2020</option>
-      </select>
-      <br> <br>
-      <table class="table table-striped text-center"> 
+<table class="table table-striped text-center mt-5"> 
           <thead>
-            <tr>
-              <th scope="col">Grade Level</th>
-              <th scope="col">Male</th>
-              <th scope="col">Female</th>
-              <th scope="col">Total</th>
-            </tr>
-          </thead>
-          
-        <tr>
-            <td>Grade 7</td>
-            <td>28</td>
-            <td>20</td>
-            <td>48</td>
-        </tr>
-        <tr>
-            <td>Grade 8</td>
-            <td>25</td>
-            <td>22</td>
-            <td>47</td>
-        </tr>
-        <tr>
-            <td>Grade 9</td>
-            <td>24</td>
-            <td>19</td>
-            <td>43</td>
-        </tr>
-        <tr>
-            <td>Grade 10</td>
-            <td>23</td>
-            <td>23</td>
-            <td>46</td>
-        </tr> 
-    </table>
-            </div> 
+                <tr>
+                    <th scope="col">Grade Level</th>
+                    <th scope="col">Male</th>
+                    <th scope="col">Female</th>
+                    <th scope="col">Total</th>
+               </tr>
+         </thead>
+                <tr>
+                    <td>Grade 7</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <td>Grade 8</td>
+                    <td>25</td>
+                    <td>22</td>
+                    <td>47</td>
+                </tr>
+                <tr>
+                    <td>Grade 9</td>
+                    <td>24</td>
+                    <td>19</td>
+                    <td>43</td>
+               </tr>
+               <tr>
+                   <td>Grade 10</td>
+                   <td>23</td>
+                   <td>23</td>
+                   <td>46</td>
+              </tr> 
+</table>
+     </div> 
+            <!-- End Content row Col-1 -->
 
-
+            <!-- Content row Col-2 -->
 <div class="col-md col-lg col-sm"> 
-      <div class="row">
-           <div class="  col-md col-lg col-sm ">
+     <div class="row">
+         <div class="  col-md col-lg col-sm ">
              <label for="class_start">Class Start</label>
              <input class="form-control" type="date" name="class_start">
           </div> 
-          <div class="col-md col-lg col-sm ">
-            <label for="class_end">Class End</label>
-            <input class="form-control"  type="date" name="class_end">
-          </div>  
+                <div class="col-md col-lg col-sm ">
+                    <label for="class_end">Class End</label>
+                    <input class="form-control"  type="date" name="class_end">
+                </div>  
       </div>  
       <br/>  <br/>
        
         <table class="table table-striped">
-          <td>Class Calendar</td> 
-              <td>summary</td> 
-          </tr>
-          <tr>
-              <td>Enrolment/Class Start:</td> 
-              <td>08-14-2023</td> 
-          </tr>
-          <tr>
-              <td>Class End:</td> 
-              <td>06-06-2024</td> 
-          </tr>
-        </table>
-        
-      </div>
-
+                  <tr>
+                      <td>Class Calendar</td> 
+                      <td>summary</td> 
+                  </tr> 
+          
+                  <tr>
+                      <td>Enrolment/Class Start:</td> 
+                      <td>08-14-2023</td> 
+                  </tr>
+                  <tr>
+                      <td>Class End:</td> 
+                      <td>06-06-2024</td> 
+                  </tr>
+        </table> 
+  </div>
 </div>
+            <!-- End Content row Col-2 -->
 
-        
-        </div>
-     
+
+
+                   <!-- Modal Logout -->
         <div class="modal fade" id="logout">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -136,5 +136,6 @@
           </div>
         </div>
         </div>
+                   <!-- End Modal Logout -->
   </body>
 </html>

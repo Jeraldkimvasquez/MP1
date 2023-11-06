@@ -6,10 +6,11 @@
 }
 
 .navbar a:hover {
-    background: rgb(36, 40, 159);
-    background: linear-gradient(90deg, rgba(36, 40, 159, 0.4318102240896359) 0%, rgba(221, 220, 231, 1) 0%, rgba(212, 249, 247, 1) 100%, rgba(31, 31, 237, 0.87718837535014) 100%, rgba(250, 231, 226, 1) 100%, rgba(56, 107, 161, 1) 100%, rgba(68, 230, 231, 1) 100%, rgba(192, 162, 232, 1) 100%, rgba(183, 146, 224, 1) 100%, rgba(131, 58, 180, 1) 100%);
+    background: rgb(36,40,159);
+    background: linear-gradient(90deg, rgba(36,40,159,0.4318102240896359) 0%, rgba(215,213,233,1) 0%, rgba(14,103,196,1) 0%, rgba(192,162,232,1) 0%, rgba(123,151,213,1) 0%, rgba(21,28,28,1) 99%); 
     border-radius: 5px;
     cursor: pointer;
+    color:white;
 }
 
 .card:hover {
@@ -34,9 +35,17 @@
 }
 
 .body-bg-color {
-    background-color: #e4e3f3;
-}
+    background: rgb(36,40,159);
+background: linear-gradient(90deg, rgba(36,40,159,0.4318102240896359) 0%, rgba(215,213,233,1) 0%, rgba(192,162,232,1) 0%, rgba(189,243,244,1) 0%, rgba(227,199,191,1) 100%, rgba(56,107,161,1) 100%);
+     }
 
 .search-margin-l {
     margin-left: 113px;
 }
+a:hover {
+    
+    background: rgb(36,40,159);
+background: linear-gradient(90deg, rgba(36,40,159,0.4318102240896359) 0%, rgba(215,213,233,1) 0%, rgba(192,162,232,1) 0%, rgba(246,251,251,1) 0%, rgba(244,248,252,1) 100%, rgba(227,199,191,1) 100%);
+    cursor: pointer;
+}
+ 

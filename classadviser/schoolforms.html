@@ -22,9 +22,13 @@
     <title>School Forms HTML</title>
   </head>
   <body class="body-bg-color">
+    <!-- Header -->
     <div class="header" id="classadviserheader">
       <h4>Class Adviser</h4>
     </div>
+    <!-- End Header -->
+
+          <!-- Navigation Bar -->
     <div>
       <nav class="navbar navbar-expand-sm bg-light" id="navclassadviser">
         <button
@@ -54,8 +58,10 @@
         <button class="btn btn-danger mx-4" data-bs-toggle="modal" data-bs-target="#logout"><i class="bi bi-x-lg"></i> Logout</button>
       </nav>
     </div>
+        <!-- End Navigation Bar -->
 
-    <div class="container mt-4">
+<!-- Setting Triger for another navigation  -->
+    <div class="container mt-4">    
       <ul class="nav nav-pills">
         <li class="btn btn-warning mx-1 active">
           <a class="text-decoration-none" href="#1a" data-toggle="tab" > <i class="bi bi-card-list"></i> Report Card</a>
@@ -64,15 +70,18 @@
           <a class="text-decoration-none" href="#2a" data-toggle="tab"><i class="bi bi-clipboard-data"></i> Form 137</a>
         </li>
       </ul>
-      <div class="tab-content ">
+      <!-- End For Setting Triger -->
+
+      <!-- Input to Search Student -->
+      <div class="container "> 
+        <br/>
+     <input  class="form-control   w-25 search-margin-l" type="search" placeholder="Search Student"> 
+    <label class="label label-primary w-25 search-margin-l mt-3">Student Name: <span> DELA CRUZ , JUAN</span></label>
+    </div>
+    <!-- End-->
+          <!-- Table Responsive for Report Card -->
+      <div class="tab-content table-responsive">
         <div class="tab-pane active" id="1a">
-            
-          <div class="container "> 
-                <br/>
-            <input  class="form-control   w-25 search-margin-l" type="search" placeholder="Search Student">  
-            <label class="label label-primary w-25 search-margin-l mt-3">Student Name: <span> DELA CRUZ , JUAN</span></label>
-            </div>
-            
             <table class="table table-bordered    mt-4 mx-auto w-auto">
                 <tr class="border-2 border-dark">
                     <th class="bg-secondary text-light">Learning Areas</th>
@@ -190,11 +199,11 @@
                 </tr>
             </table>
         </div>
+<!-- End For table Responsive For Report Card -->
 
+<!-- Table for Form 137 -->
         <div class="tab-pane" id="2a">
                <br>
-              <input  class="form-control   w-25 search-margin-l" type="search" placeholder="Search Student">  
-              <label class="label label-primary w-25 search-margin-l mt-3">Student Name: <span> DELA CRUZ , JUAN</span></label>
               <h3 class="text-center">Form 137</h3>
               <table class="table table-bordered    mt-4 mx-auto w-auto">
                 <tr class="border-2 border-dark">
@@ -316,7 +325,9 @@
         </div>
       </div>
     </div>
+<!-- End of table for form 137 -->
 
+<!-- Modal Logout -->
     <div class="modal fade" id="logout">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -334,5 +345,6 @@
       </div>
     </div>
     </div>
+    <!-- End of Modal Logout -->
   </body>
 </html>

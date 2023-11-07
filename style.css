@@ -23,7 +23,7 @@
 .card {
     transition: all 0.3s;
 }
-/* all dashboard */
+/* Effect in all dashboard for School Year Dropbox */
 #sy {
     width: 250px;
 }
@@ -39,7 +39,7 @@
     background: rgb(36,40,159);
 background: linear-gradient(90deg, rgba(36,40,159,0.4318102240896359) 0%, rgba(215,213,233,1) 0%, rgba(192,162,232,1) 0%, rgba(189,243,244,1) 0%, rgba(227,199,191,1) 100%, rgba(56,107,161,1) 100%);
      }
-/* All School Forms */
+/* All School Forms specifically in Search Student */
 .search-margin-l {
     margin-left: 113px;
 }

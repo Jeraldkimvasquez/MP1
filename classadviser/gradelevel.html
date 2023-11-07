@@ -12,9 +12,13 @@
 </head>
 
 <body class="body-bg-color">
+   <!-- Header -->
     <div class="header" id="classadviserheader">
       <h4>Class Adviser</h4>
     </div>
+    <!-- End Header -->
+
+          <!-- Navigation Bar -->
 <div>
     <nav class="navbar navbar-expand-sm bg-light" id="navclassadviser">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +42,11 @@
            <button class="btn btn-danger mx-4" data-bs-toggle="modal" data-bs-target="#logout"><i class="bi bi-x-lg"></i> Logout</button>
            </nav>
 </div>
+             <!-- End Navigation Bar -->
 
+             <!--  1st Col; Form Select for School Year-->
 <br> <br> 
-<div class="container  ">
+<div class="container">
       <div class="col-md col-lg col-sm w-25 ">
       <select  class="form-select"  name="schoolyear">
         <option>Grade 7 - St. John Paul II</option>
@@ -50,7 +56,8 @@
         <option>Grade 11- St. Pio</option>
         <option>Grade 12- St. Joseph</option>
       </select>
-       
+             <!-- End -->
+             <!-- 2nd Col; Form Select for grading period -->
       <br>
         <div class="col-md col-lg col-sm">
             <select id="grade" class="form-select" name="grading">
@@ -59,129 +66,127 @@
                 <option>3rd Grading</option>
                 <option>4th Grading</option>
             </select>
+        </div>            
+    </div>
+                    <!-- End -->
+
+       <!-- Table to View the Grade of Learners -->
+        <h2 class="mt-4">Master List</h2>
+    <div class="table-responsive"> 
+            <table class="table table-striped text-center"> 
+                  <thead>
+                    <tr>
+                      <th class="w-25">Learner</th>
+                      <th>Filipino</th>
+                      <th>English</th>
+                      <th>Mathematics</th>
+                      <th>Science</th>
+                      <th>Aralin Panlipunan</th>
+                      <th>Edukasyon sa Pagpapakatao</th>
+                      <th>Music</th>
+                      <th>Arts</th>
+                      <th>Physical Education</th>
+                      <th>Health</th>
+                      <th>TLE</th>
+                      <th>Average</th>
+                    </tr>
+                  </thead>
+            
+                      <tr>
+                          <td class="text-start">Jose Luna </td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                          <td>75</td>
+                      </tr>
+                      <tr>
+                          <td class="text-start">Jose Rizal</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                          <td>90</td>
+                      </tr>
+                      <tr>
+                          <td class="text-start">Rodrigo Duterte</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          <td>85</td>
+                          
+                      </tr>
+                      <tr>
+                          <td class="text-start">Lenie Robredo</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                          <td>84</td>
+                      </tr> 
+                      <tr>
+                        <td class="text-start">Sarah Duterte</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>90</td>
+                      </tr>
+                      <tr>
+                        <td class="text-start">Francis Tolentino</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                        <td>85</td>
+                  </tr>
+          </table>
         </div>
     </div>
-    
-        <h2 class="mt-4">Master List</h2>
-      
-   
-    
-
-    <div class="table-responsive"> 
-    <table class="table table-striped text-center"> 
-        <thead>
-          <tr>
-            <th class="w-25">Learner</th>
-            <th>Filipino</th>
-            <th>English</th>
-            <th>Mathematics</th>
-            <th>Science</th>
-            <th>Aralin Panlipunan</th>
-            <th>Edukasyon sa Pagpapakatao</th>
-            <th>Music</th>
-            <th>Arts</th>
-            <th>Physical Education</th>
-            <th>Health</th>
-            <th>TLE</th>
-            <th>Average</th>
-          </tr>
-        </thead>
-        
-      <tr>
-          <td class="text-start">Jose Luna </td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-          <td>75</td>
-      </tr>
-      <tr>
-          <td class="text-start">Jose Rizal</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-          <td>90</td>
-      </tr>
-      <tr>
-          <td class="text-start">Rodrigo Duterte</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          <td>85</td>
-          
-      </tr>
-      <tr>
-          <td class="text-start">Lenie Robredo</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-          <td>84</td>
-      </tr> 
-      <tr>
-        <td class="text-start">Sarah Duterte</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-        <td>90</td>
-      </tr>
-      <tr>
-        <td class="text-start">Francis Tolentino</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-        <td>85</td>
-     </tr>
-      </table>
-    </div>
-</div>
-       
+         <!-- Modal Logout -->
 <div class="modal fade" id="logout">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -199,7 +204,7 @@
   </div>
 </div>
 </div>
-
+<!-- End Modal Log Out -->
 
     
  </body>
